@@ -1,0 +1,74 @@
+.body{
+    position: relative;
+}
+.container{
+    width: 35vw;
+    height: 45vh;
+    background-color: antiquewhite;
+    padding-right: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: flex;
+    
+}
+.image{
+    width: 15vw;
+    height: 43vh;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 15px;
+    transition: all 4s;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.containerer{
+    width: 25vw;
+    height: 40vh;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: blueviolet;
+    margin-bottom: 200px;
+}
+
+.name{
+    text-align: center;
+}
+
+.company{
+    margin:5px;
+    display: inline-block;
+}
+
+.font{
+    display: flex;
+    margin: 5px;
+}
+
+.features{
+    margin:0px;
+}
+.services{
+margin:0px;
+}
+
+.icon{
+    width: 30Px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    transition: all 1s;
+}
+.icon:first-child{
+    margin-left: 30px;
+}
+.icon:hover{
+    transform: rotate(360deg);
+}

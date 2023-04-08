@@ -1,0 +1,12 @@
+.container{
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+}
+.item{
+    background-color: rgb(219, 159, 70);
+    padding: 20px;
+    font-size: 30px;
+    color:black
+} 
